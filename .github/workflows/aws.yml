@@ -26,3 +26,6 @@ jobs:
  
       - run: aws sts get-caller-identity
         shell: bash
+
+      - run: aws iam list-attached-role-policies --role-name sts-lab-2-target
+        shell: bash
