@@ -28,10 +28,7 @@ jobs:
         shell: bash
 
       - run: aws iam list-attached-role-policies --role-name sts-lab-2-target
-        shell: bash
-
-      - run: aws iam get-policy-version --policy-arn arn:aws:iam::***:policy/sts_lab_2_target --version-id v1
-        shell: bash      
+        shell: bash   
       
       - run: aws iam get-policy-version --policy-arn arn:aws:iam::277978271553:policy/sts_lab_2_target --version-id v1
         shell: bash  
