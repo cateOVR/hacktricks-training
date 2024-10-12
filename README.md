@@ -1,1 +1,1 @@
-# hacktricks-training1
+# hacktricks-training
